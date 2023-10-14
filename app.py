@@ -32,7 +32,7 @@ def predict_death_event(feature1, feature2, feature3,feature4, feature5, feature
     return y_pred
 
 # Gradio interface to generate UI link
-title = "Patient Survival Prediction"
+title = "Patient Survival Prediction - v1"
 description = "Predict survival of patient with heart failure, given their clinical record"
 
 iface = gradio.Interface(fn = predict_death_event,
